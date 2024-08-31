@@ -9,5 +9,4 @@ public class CodePlayGroundSpringApplication {
     public static void main(String[] args) {
         SpringApplication.run(CodePlayGroundSpringApplication.class, args);
     }
-
 }
