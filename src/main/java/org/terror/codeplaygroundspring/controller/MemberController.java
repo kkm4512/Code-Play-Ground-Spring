@@ -1,20 +1,18 @@
-package org.terror.codeplaygroundspring.test4;
+package org.terror.codeplaygroundspring.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class TestController {
+public class MemberController {
     @GetMapping("/{memberId}")
-    public void printMemberId(@PathVariable String memberId) {
+    public void getMemberId(@PathVariable int memberId) {
         System.out.println(memberId);
     }
 
     @GetMapping("/{calendarId}")
-    public void printCalendarIdId(@PathVariable String calendarId) {
+    public void getCalendarId(@PathVariable int calendarId) {
         System.out.println(calendarId);
     }
-
-    //변경사항
 }
