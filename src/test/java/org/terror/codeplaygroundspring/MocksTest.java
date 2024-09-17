@@ -3,10 +3,9 @@ package org.terror.codeplaygroundspring;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 public class MocksTest {
     MockObjectClass mockObjectClass;
