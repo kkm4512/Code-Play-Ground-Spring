@@ -3,7 +3,7 @@ package org.terror.codeplaygroundspring.dtoTest;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
-// 내가 수정한거
+// 회원가입 기능 완성
 public class ComputerDto {
 
     @Getter
